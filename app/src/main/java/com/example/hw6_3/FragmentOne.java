@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 public class FragmentOne extends Fragment {
-    private Button btnOpen;
+    protected Button btnOpen;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
